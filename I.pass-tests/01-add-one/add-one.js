@@ -1,10 +1,7 @@
-//function addOne(numbers) {
-//    return numbers.map( value => value +1)
-//}
+function addOne(numbers) {
+  return numbers.map(david => david + 1);
+}
+module.exports = addOne;
 
-module.exports = numbers => numbers.map(David => David + 1)
-
-//module.exports = addOne;
-
-//Actualizacion de prueba
-
+// module.exports = numbers => numbers.map(David => David + 1); Este tambien funciona,
+// descomento

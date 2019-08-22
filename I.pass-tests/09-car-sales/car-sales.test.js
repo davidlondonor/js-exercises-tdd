@@ -19,6 +19,6 @@ test("Car sales", function() {
   };
 
   var output = sales(carsSold);
-
+  // Verificar con un console.
   expect(output).toEqual(totals);
 });
