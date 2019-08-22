@@ -1,3 +1,7 @@
+var getSecond = require("./get-second-third");
+
+test("");
+
 // example
 // input = [90, 5, 11, 8, 6];
 // expected output = [6, 8];
