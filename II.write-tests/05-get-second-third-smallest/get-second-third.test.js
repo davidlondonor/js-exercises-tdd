@@ -1,6 +1,12 @@
-var getSecond = require("./get-second-third");
+let sliceFunction = require("./get-second-third");
 
-test("");
+test("Getting second and third smallest", function() {
+  let input = [90, 5, 11, 8, 6];
+  let expected = [6, 8];
+
+  let output = sliceFunction(input);
+  expect(output).toEqual(expected);
+});
 
 // example
 // input = [90, 5, 11, 8, 6];
